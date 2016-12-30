@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        block head
+            meta(charset="UTF-8")
+            block title
+                title Document
+    body
+        block body
+
+        block scripts
+            script(src="{% static 'adverts/js/jquery.js' %}")

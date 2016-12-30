@@ -1,0 +1,18 @@
+extends adverts/base.jade
+{% load staticfiles %}}
+
+
+block title
+    title Доска объявлений
+
+
+block body
+    #adverts
+        if adverts
+            ul
+                for item in adverts
+                    li: a(href="#{item.id}") #{item.title}
+
+
+block append scripts
+    script(src="{% static 'adverts/js/app.js' %}")

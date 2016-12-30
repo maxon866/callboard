@@ -1,0 +1,8 @@
+extends adverts/base.jade
+{% load staticfiles %}
+
+
+block body
+    if data
+        h2= data.title
+        p= data.text
