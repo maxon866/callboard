@@ -1,5 +1,5 @@
 server:
-	venv/bin/python3 manage.py runserver
+	. venv/bin/activate; python3 manage.py runserver
 
 shell:
 	venv/bin/python3 manage.py shell_plus --ipython
