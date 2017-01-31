@@ -77,11 +77,8 @@ class BadMath(TestCase):
     def test_bad_add(self):
         self.assertEqual(2 + 2, 4)
 
-#     def test_bad_mul(self):
-#         self.assertEqual(2*2, 3)
+    def test_bad_mul(self):
+        self.assertEqual(2*2, 3)
 
 #     def test_bad_mul2(self):
 #         self.assertEqual(2*2, 3)
-
-#
-#
